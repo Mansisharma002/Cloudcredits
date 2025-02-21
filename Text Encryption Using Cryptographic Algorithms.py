@@ -68,7 +68,7 @@ def main_screen():
     screen.config(bg="light gray")
     
     # Icon
-    image_icon = PhotoImage(file="Key.png")  # Make sure the image file exists
+    image_icon = PhotoImage(file="Key.png")  
     screen.iconphoto(False, image_icon)
     screen.title("Text Encryption & Decryption App")
     
